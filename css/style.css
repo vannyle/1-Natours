@@ -42,12 +42,15 @@
 
 html {
   font-size: 62.5%; }
-  @media (max-width: 600px) {
+  @media (max-width: 1200px) {
     html {
-      font-size: 50%; } }
+      font-size: 56.25%; } }
   @media (max-width: 900px) {
     html {
-      font-size: 55%; } }
+      font-size: 50%; } }
+  @media (min-width: 1800px) {
+    html {
+      font-size: 75%; } }
 
 body {
   box-sizing: border-box; }
